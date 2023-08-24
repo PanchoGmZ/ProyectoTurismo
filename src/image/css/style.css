@@ -1,0 +1,162 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#main-header{
+    background: #00000775;
+    color:#000000;
+    height: 80px;
+    width: 100%; 
+      left: 0; 
+      top: 0; 
+      position: fixed; 
+  }
+  #main-header a{
+    color:rgb(245, 244, 244);
+  }
+  #main-header:hover {
+    background: #000007;
+  }
+  #logo-header {
+      float: left;
+      padding: 15px 0 0 20px;
+      text-decoration: none;
+  }
+  
+  #logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+  
+  #logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+  }
+  nav {
+      float: right;
+  }
+      nav ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          padding-right: 20px;
+      }
+      
+          nav ul li {
+              display: inline-block;
+              line-height: 80px;
+          }
+              
+              nav ul li a {
+                  padding: 10px 10px;
+                  text-decoration: none;
+              }
+              
+                  nav ul li a:hover {
+                      border-bottom: 4px solid #8f0e00;
+                  }
+  body{
+      background-image: url("https://wallpaperaccess.com/full/1423575.jpg") ;
+      background-size: cover;
+      position: static;
+  }
+                .textexpl{
+                    position: static;
+                    display: inline-block;
+                    text-align: Left;
+                    font-size: 80px;
+                    font-family: 'Josefin Sans', sans-serif;
+                    color:rgb(117, 8, 8);
+                    padding-top:14%;
+                    padding-left: 5%;
+                }
+                .textportugal{
+                    position: static;
+                    display: inline-block;
+                    text-align: Left;
+                    font-size: 90px;
+                    font-family: 'Josefin Sans', sans-serif;
+                    color:rgb(253, 253, 253);
+                    padding-top:14%;
+                    padding-left: 4%;
+                }
+                  .contenedor-boton1{
+                    display:flex;
+                    justify-content:space-between;
+                    padding-top: 15%; 
+                    padding-left: 10%;
+                    padding-right: 10%;  
+                    padding-bottom: 5%;           
+                  }
+
+                  .boton {
+                    border: 3px solid #000000; 
+                    background-color: #ffffff; 
+                    color: #000000;
+                    font-size: 30px;
+                    text-decoration: none; 
+                    text-transform: uppercase; 
+                    border-radius: 35px;
+                    padding: 20px; 
+                    }
+                    .boton:hover{
+                        color:#ffffff;
+                        background-color: #000000;
+                    }                
+    .hoteles{
+        background-image: url(https://images4.alphacoders.com/276/276508.jpg);
+        position: static;
+    }
+    .hotext{
+        font-family:'Oswald', sans-serif;
+        font-size: 20px;
+    }
+    h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 45px;
+        background-color: rgba(241, 217, 217, 0.589);
+    }
+    h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 65px;
+        text-align: center;
+        background-color: rgba(241, 217, 217, 0.589);
+    }
+    #ahtl{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 23px;
+        text-align: center;
+        background-color: rgba(241, 217, 217, 0.589);
+        text-decoration: none;
+        color: darkgreen;
+    }
+    #lisboahtl{
+        width: 20%;
+        height: 40%;
+    }
+    p{
+        font-family:'Oswald', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        background-color: rgba(238, 169, 169, 0.836);
+    }
+    .csq{
+        background-image: url(https://images5.alphacoders.com/569/thumb-1920-569143.jpg);
+        position:static;
+    }
+    #acsq{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 23px;
+        text-align: center;
+        background-color: rgba(241, 217, 217, 0.589);
+        text-decoration: none;
+        color: darkgreen;
+    }
+    #imgrst{
+        position: fixed;
+    }
